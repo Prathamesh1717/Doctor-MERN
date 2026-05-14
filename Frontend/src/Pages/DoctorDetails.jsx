@@ -22,7 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useAuth, useUser } from "@clerk/clerk-react";
 import { doctorDetailStyles } from "../assets/dummyStyles";
 
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
 //pass date to object  yyyy-mm-dd
 function getScheduleDates(schedule) {

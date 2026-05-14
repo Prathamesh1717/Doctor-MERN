@@ -3,7 +3,7 @@ import { dashboardStyles as s } from '../assets/dummyStyles'
 import { BadgeIndianRupee, CalendarRange, CheckCircle, Search, UserRoundCheck, Users, XCircle } from 'lucide-react';
 import { useEffect,useMemo } from 'react';
 
-const API_BASE = 'https://doctor-mern-backend.onrender.com';
+const API_BASE = 'https://doctor-mern-backend-l6gr.onrender.com';
 const PATIENT_COUNT_API = `${API_BASE}/api/appointments/patients/count`;
 
 //HELPER FUNCTION TO FETCH PATIENT COUNT

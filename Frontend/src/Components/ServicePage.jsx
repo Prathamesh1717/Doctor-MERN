@@ -104,7 +104,7 @@ const ServiceCard = ({ service }) => {
   );
 };
 const ServicePage = ({previewCount = 9999}) => {
-  const API_BASE = "https://doctor-mern-backend.onrender.com";
+  const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");

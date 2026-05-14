@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { dashboardStyles } from "../assets/dummyStyles";
 
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
 //date with time
 function parseDateTime(date, time) {

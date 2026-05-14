@@ -48,7 +48,7 @@ function normalizeService(doc) {
   };
 }
 
-const API_BASE = 'https://doctor-mern-backend.onrender.com';
+const API_BASE = 'https://doctor-mern-backend-l6gr.onrender.com';
 
 const ServiceDashboard = ({ services: servicesProp = null }) => {
      const [services, setServices] = useState(

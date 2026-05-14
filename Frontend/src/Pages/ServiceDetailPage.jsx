@@ -12,7 +12,7 @@ import { useAuth } from "@clerk/clerk-react";
 import toast, { Toaster } from "react-hot-toast";
 import { serviceDetailStyles, iconSize } from "../assets/dummyStyles";
 
-const DEFAULT_HOST = "https://doctor-mern-backend.onrender.com".replace(/\/$/, "");
+const DEFAULT_HOST = "https://doctor-mern-backend-l6gr.onrender.com".replace(/\/$/, "");
 
 export default function ServiceDetail() {
   const { id } = useParams(); //to get particular service

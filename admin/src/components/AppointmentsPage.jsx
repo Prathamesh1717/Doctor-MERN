@@ -2,7 +2,7 @@ import React from 'react'
 import { pageStyles, statusClasses, keyframesStyles } from '../assets/dummyStyles.js';
 import { useState, useEffect, useMemo } from 'react';
 import { Calendar, Search, BadgeIndianRupee  } from 'lucide-react';
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
 //HELPER FUNCTIONS
 

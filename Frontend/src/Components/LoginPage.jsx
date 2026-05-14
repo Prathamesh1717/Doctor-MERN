@@ -9,7 +9,7 @@ import { ArrowLeft } from 'lucide-react';
 const STORAGE_KEY = "doctorToken_v1";
 
 const LoginPage = () => {
-    const API_BASE = 'https://doctor-mern-backend.onrender.com';
+    const API_BASE = 'https://doctor-mern-backend-l6gr.onrender.com';
 
     const[formData,setFormData] = useState({email:"", password: ""});
     const[busy,setBusy] = useState(false);

@@ -3,7 +3,7 @@ import { listPageStyles } from '../assets/dummyStyles.js';
 import { useParams } from 'react-router-dom';
 import { Calendar, Phone, Search, X } from 'lucide-react';
 
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
 //date time
 function parseDateTime(date, time) {

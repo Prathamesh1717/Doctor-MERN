@@ -13,7 +13,7 @@ import {
 import { serviceListStyles as s } from "../assets/dummyStyles";
 
 export default function ListServicePage() {
-  const API_BASE = "https://doctor-mern-backend.onrender.com";
+  const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
   const [services, setServices] = useState([]);
   const [openDetails, setOpenDetails] = useState({});

@@ -3,7 +3,7 @@ import { doctorsPageStyles } from '../assets/dummyStyles'
 import { ChevronRight, CircleChevronDown, CircleChevronUp, Medal, MousePointer2Off, Search, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const DoctorsPage = () => {
-const API_BASE = 'https://doctor-mern-backend.onrender.com';
+const API_BASE = 'https://doctor-mern-backend-l6gr.onrender.com';
   const [allDoctors, setAllDoctors] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");

@@ -7,7 +7,8 @@ import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { useSearchParams } from 'react-router-dom';
 
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";  
+//https://doctor-mern-backend-l6gr.onrender.com
 const API = axios.create({baseURL: API_BASE}) ;
 
 //Helper function

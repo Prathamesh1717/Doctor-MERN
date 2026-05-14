@@ -3,7 +3,7 @@ import axios from 'axios';
 import  { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const API_BASE = "https://doctor-mern-backend.onrender.com";
+const API_BASE = "https://doctor-mern-backend-l6gr.onrender.com";
 
 
 const VerifyServicePaymentPage = () => {
