@@ -3,7 +3,7 @@ import multer from "multer";
 
 import { createDoctor, deleteDoctor, doctorLogin, getDoctorById, getDoctors, toggleDoctorAvailability, updateDoctor } from "../controllers/doctorController.js";
 import doctorAuth from "../middlewares/doctorAuth.js";
-const upload = multer({ dest:"/temp"});
+const upload = multer({ dest: "temp/" });
 
 const doctorRouter = express.Router();
 
