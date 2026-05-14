@@ -2,7 +2,7 @@ import React from 'react'
 import { serviceAppointmentsStyles } from '../assets/dummyStyles.js';
 import { Loader2, Search, SearchIcon, XIcon, User, Phone, BadgeIndianRupeeIcon, Calendar, Clock, CheckCircle, BadgeIndianRupee } from 'lucide-react';
 import { useState,useEffect,useMemo } from 'react';
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://doctor-mern-backend.onrender.com";
 
 //Helper Function
 function formatTwo(n) {

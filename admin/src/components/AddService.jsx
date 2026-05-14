@@ -6,7 +6,7 @@ import { AlertTriangle, Calendar, CheckCircle, Clock, Image, Plus, Trash2, XCirc
 
 const AddService = ({serviceId}) => {
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://doctor-mern-backend.onrender.com";
  const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null);
   const [imageFile, setImageFile] = useState(null);
